@@ -10,3 +10,15 @@ Create the project
 -Extra navigation as Dropdown menu using some js scripts 
 -Then add projects and modify. 
 That is all in the Part-1 of the Assignment 2.
+-------------------------------------------------------
+------------------Part-2------------------------------------
+-Modified the project
+-Added classes -------------
+-Added category in the navigation of dropdown
+-Some javascript-Migrations-
+-Created database - applied function
+-Install commands in the nuget package manager
+-Modified with Category and UPsert View.
+Review again all the project.
+Part-2 Compeleted of the Assignment 2.
+--------------------------------------------------------
