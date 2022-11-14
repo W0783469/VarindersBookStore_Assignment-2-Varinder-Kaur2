@@ -10,31 +10,26 @@ using System.Linq.Expressions;
 
 namespace VarindersBook.DataAccess.Repository
 {
-   public class CategoryRepository : Repository<Category>,ICategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
-        public CategoryRepository(ApplicationDbContext db) :base(db)
+
+        public CategoryRepository(ApplicationDbContext db) : base(db)
         {
-
-
             _db = db;
         }
 
-        public Category Get(object p)
+        public void Update(Category category)
         {
-            throw new NotImplementedException();
-        }
-
-        public void update(Category category)
-        {
-
+            // use .NET LINQ to retrieve the first or default category object
+            // then pass the id as a generic entity which matches the Category ID
             var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
-            if(objFromDb != null)
+            if (objFromDb != null)
             {
-
                 objFromDb.Name = category.Name;
-                //_db.SaveChanges();
+
             }
+
         }
     }
 }
