@@ -34,7 +34,7 @@ namespace VarindersBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<ApplicationDbContext>();//Deleted the connection from configuration
 /* services.AddScoped<IUnitOfWork, UnitOfWork>();*/
             services.AddControllersWithViews();
             services.AddScoped<UnitOfWork, UnitOfWork>();
