@@ -8,9 +8,9 @@ using VarindersBook.DataAccess.Data;
 
 namespace VarindersBook.DataAccess.Repository.IRepository
 {
-   public interface ICategoryRepository :IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
-        void update(Category category);
-        Category Get(object p);
+        //void Update(Category category);
+        void Update(Category category);
     }
 }
