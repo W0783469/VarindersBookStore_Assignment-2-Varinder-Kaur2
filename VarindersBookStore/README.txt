@@ -231,7 +231,7 @@ Modified the file Upsert.cshtml
 Navigation -create the new category 
 Mofify the title- try again and again ...................
 Test the application--------------
-------------------------------------------------------------------------------------
+----------------------------------------2022-11-14--------------------------------------------
 1045- Modified the CategoryController.cs 
 -Checked the errors-----------update the create and create actegory to try it is working or not.
 Added delete data feature in the categoryController.cs
