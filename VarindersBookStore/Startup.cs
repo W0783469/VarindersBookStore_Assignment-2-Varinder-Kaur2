@@ -37,7 +37,7 @@ namespace VarindersBookStore
                 .AddEntityFrameworkStores<ApplicationDbContext>();//Deleted the connection from configuration
 /* services.AddScoped<IUnitOfWork, UnitOfWork>();*/
             services.AddControllersWithViews();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<VarindersBook.DataAccess.Repository.IUnitOfWork, VarindersBook.DataAccess.Repository.IUnitOfWork>();
             services.AddRazorPages();
         }
 
