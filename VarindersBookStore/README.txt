@@ -110,7 +110,7 @@ But now no words to say...Because its giving the same errors again so not able t
  Finished.
 in stratup.cs deleted the content and added a comment as delete the connection from the configuration....
 ------------------------------------------------------------------------------------------------------------------
-------------------09-11-2022----------------
+------------------2022-11-09----------------
 ---------------------02:45pm----------------
 Part-1 is not working properly so decided to create the project again
 3000- created and build the project ---repeat the steps 1 t0 111 again .......
@@ -160,7 +160,7 @@ it was of database........so remove the errors.......try to debug
 Late night now.................feeling sleepy........will continue next day.........
 ----------------------------------------------------------------------------------------------------
 
---------------------------------------11-11-2022----------------------------
+--------------------------------------2022-11-11----------------------------
 ---------------------------------------08:25am--------------------------------
 continue where I leave the project..........
 2.2-Repository------------
@@ -246,7 +246,7 @@ Finished.---------------------------
 -------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
 Starting part-3...........
------------------21-11-2022------02:30pm-------
+-----------------2022-11-21------02:30pm-------
 created the CRUD operations exactly with the same method as did last time for the category
 Added CoverType.cs in the model folder- in cover type added ID, Name
 
