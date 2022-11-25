@@ -244,3 +244,110 @@ I check in the sql server It is showing on the sql server but notwhen I run the 
 I think due to the browser problem but not sure...otherwise its working................
 Finished.---------------------------
 -------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Starting part-3...........
+-----------------21-11-2022------02:30pm-------
+created the CRUD operations exactly with the same method as did last time for the category
+Added CoverType.cs in the model folder- in cover type added ID, Name
+
+Added a class with the name CoverTypeRepository, interface- ICoverTypeRepository
+Added cover type to the UnitOfWork and IUnitofWork
+Then I added all these CoverType to the Database of the project
+And Created migration and then from that updated the Database.
+When I added the migrations it get failed try again and again 
+but not succeeding...so decide to do the whole thing again
+------------------4:00pm----------
+Added migartions again and thank to god it succeed ....really get tired just at this point 
+Migartions name for the cover tyoe are:
+-20221124151249_AddCovertypetodb.cs
+-20221124153746_covertypetodb.cs
+
+Then added the Cover type in the navigation bar that is clickable and link to the page to create a new cover type
+Added controller for the CoverType
+Added index page to show the content to create the database 
+And I get to know that upsert view is essential to add as it creates and updates the database
+Then added the delete action o delete any of the cover type
+
+------------6:00pm-----------------
+Try to build the project and finally it successful
+Added some covertype in the database.......
+Giving me the error of exceping handling .........
+Then I try by updating the databse because i experienced the same error in the last part so I know how to solve this
+Then it works and I test it by creating database......
+-----------------6:25pm---------------------
+
+Added a new class in the model project and nameed it as product
+Giving errors in the files ...I think that is of dbcontext........
+ohh..I got it...by misatake I remove some of the content
+I corrected it and try again to resolve the problems.
+Added as the reference of the product file to the file named ApplicationAbContext.cs
+Added new migartion to the product  by running the command in the PM console "addProductToDb"..
+-20221125031244_AddProductToDb.cs
+-20221125031448-addValidationToProduct.cs
+-------------8:00pm-------------------
+Created migartions again and updated dataabase.
+Added product to the Repository and interface for the IProductRepository
+Added a class with the name ProductRepository and then updated database again for satisfaction
+updated UnitOfWork for the product...
+Again giving the errors in the unit of work ...trying to solve the errors ...
+---------------9:30----------
+Errors clear and build the project...succeeded...happy..
+Now its time to add the contoller in the Areas for delete and edit the content 
+Created a pacakage ..first browse it and then Insatll the version that is comaptible as per my pc 
+Microsoft.AspNetCore.Hosting.........
+Changes hppend in the contoller of the product
+Created a model in the viewmodel to make a list of the category and cover type in the product when we 
+select the cover type ans category to create teh new product.............
+Now add the package  Microsoft.AspNetCore.Mvc.ViewFeatures and it get installed according to my project comaptibility
+Leaving product here and wills start again next day in the mornin
+
+................11:30am--------------------
+Now modify the productController so that upsert method is in action 
+Added the using statement in the viewmodel for the product controller 
+and then use the pacakge Microsoft.AspNetCore.Mvc.Rendering
+Updated the API calls for making Category and CoverType accessible 
+--Need some break..feeling very tired...
+------------1:00----------------
+
+Added a index page for the product and transfer the code from the index.cshtml in the category section of the view
+Added the properties Title, ISBN, price, author, category......added a refernce to the page product.js to able the javascript code.
+Then add the code in product.je from category.js...modified the file _Layout.cshtml  to add a new and link the new product
+-----------2:00-----------
+
+Build the project..
+Hope so wiil working....
+Same error of overriding the files...
+Going to close the project first commit to github and close the project...
+stated  again and it is working....feeling relaxed..
+........2:30----------------
+
+adding the upsert.cs to the rpoducts in the area field in the views....
+Added upsert code in that file given the professor...
+added a text by browsing the "tiny.cloud"...
+Added code into it to initialize the product so thet I can create the product...
+
+-----------------3:30pm----------------------
+Fololwing the instructions ,,
+BUild the project and see what happens 
+review all the parts by runnig in the project like cover type and productvthe at I  already did in the previos sections 
+Acctually when I Filled tthe filed in title, ISBN, Author, DEscription, ListPrice, selecetd Category, Selected CoverType
+selected any imege to it butt....when I hit the create button then curious to see what eill happen next............
+
+Then disappointed to see that create will fail so readed the instructions...
+Then added a image folde into the wwwroot foldes and then product to the images so that make that productConroller in action removethe comments.........
+
+------------5:00-----------------
+Modified the project
+-Build the application and errors is in when craeted the new product
+so first removed it and then put again the file from where I removed the some content...
+Then everything was good except that create the new product
+Because when I hit the create It was not creating the product...
+So according to the instructions Upto section 2 it will be good
+Then I feel relax because otehrwise I was in worry why it was creating the product because it was showing any type of
+errors in the project ------
+So Run all the links again of CoverType and Product again ...
+----10:00----
+Satisfy and stop the debugging....
+Committed all the changes to the github.
+Finished Part-3....
+------------------------------------------------------------------------------
