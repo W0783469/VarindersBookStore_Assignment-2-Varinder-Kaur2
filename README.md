@@ -22,3 +22,19 @@ That is all in the Part-1 of the Assignment 2.
 Review again all the project.
 Part-2 Compeleted of the Assignment 2.
 ....................................................
+Part-3 of the Assignement 3
+Added the new pages to the prohject
+-CoverTYpe
+-Product
+......................................
+created migartions for the covertype and product
+Added view for both
+Then added some javascript ...
+Installed new packages for the action result 
+Added upsert view for the product
+-Added some new classes for both CoverTpe and Product
+Review the slides again...
+Added in README.txt what I did
+Try with run and Build Succeessful..
+Part-3 completed of the Assignment 3
+......................................................................
