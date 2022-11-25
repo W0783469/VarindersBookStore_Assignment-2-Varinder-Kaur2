@@ -283,7 +283,8 @@ I corrected it and try again to resolve the problems.
 Added as the reference of the product file to the file named ApplicationAbContext.cs
 Added new migartion to the product  by running the command in the PM console "addProductToDb"..
 -20221125031244_AddProductToDb.cs
--20221125031448-addValidationToProduct.cs
+-20221125031448_addValidationToProduct.cs
+
 -------------8:00pm-------------------
 Created migartions again and updated dataabase.
 Added product to the Repository and interface for the IProductRepository
