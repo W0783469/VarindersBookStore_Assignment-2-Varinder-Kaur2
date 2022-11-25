@@ -22,6 +22,9 @@ That is all in the Part-1 of the Assignment 2.
 Review again all the project.
 Part-2 Compeleted of the Assignment 2.
 ....................................................
+
+
+
 Part-3 of the Assignement 3
 Added the new pages to the prohject
 -CoverTYpe
