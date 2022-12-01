@@ -34,7 +34,7 @@ namespace VarindersBook.Models
             public Category Category { get; set; }
             [Required]
             public int CoverTypeId { set; get; }
-            [ForeignKey("CategoryId")]
+            [ForeignKey("CoverTypeId")]
             public CoverType CoverType { get; set; }
         
     }
