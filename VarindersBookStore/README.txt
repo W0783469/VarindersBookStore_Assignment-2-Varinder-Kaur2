@@ -351,4 +351,15 @@ So Run all the links again of CoverType and Product again ...
 Satisfy and stop the debugging....
 Committed all the changes to the github.
 Finished Part-3....
-------------------------------------------------------------------------------
+-----------------------Part-4-----------------------
+----------2022-11-31----------11:30-------------------
+In my part-3 product was not working properly. 
+Showing the error of exception handing ...Then I review all the project and try to fix that error.
+WhenI create hit then the create button was not working 
+---------------------1:00-----------------
+added code to display the books on the home page. 
+giving errors in productVM.cs because somewhere mistake was in coding.
+took lots of time to complete and manage ...
+Review all the files and now funally its working.
+Finished.
+
