@@ -357,6 +357,7 @@ In my part-3 product was not working properly.
 Showing the error of exception handing ...Then I review all the project and try to fix that error.
 WhenI create hit then the create button was not working 
 ---------------------1:00-----------------
+Added migration again 20221201040749_editproductstodb.cs
 added code to display the books on the home page. 
 giving errors in productVM.cs because somewhere mistake was in coding.
 took lots of time to complete and manage ...
