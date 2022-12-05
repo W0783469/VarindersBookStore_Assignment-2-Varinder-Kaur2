@@ -359,6 +359,7 @@ WhenI create hit then the create button was not working
 ---------------------1:00-----------------
 Added migration again 20221201040749_editproductstodb.cs
 added code to display the books on the home page. 
+2022-12-04---------2:00--------------
 giving errors in productVM.cs because somewhere mistake was in coding.
 took lots of time to complete and manage ...
 Review all the files and now funally its working.
