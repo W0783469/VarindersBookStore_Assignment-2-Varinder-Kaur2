@@ -25,7 +25,7 @@ Part-2 Compeleted of the Assignment 2.
 
 
 
-Part-3 of the Assignement 3
+Part-3 of the Assignement 2
 Added the new pages to the prohject
 -CoverTYpe
 -Product
@@ -39,5 +39,14 @@ Added upsert view for the product
 Review the slides again...
 Added in README.txt what I did
 Try with run and Build Succeessful..
-Part-3 completed of the Assignment 3
+Part-3 completed of the Assignment 2
 ......................................................................
+Part-4 of the Assignment 2
+-Complete the product part
+-added image section and display the products on the home page 
+Part-4 completed of the Assignment-2
+
+Part-5-----
+-Review the project so that there will be no errors
+-Publish project on azure
+Assignment2-Project-VarindersBookStore- Compeleted.
