@@ -363,6 +363,22 @@ added code to display the books on the home page.
 giving errors in productVM.cs because somewhere mistake was in coding.
 took lots of time to complete and manage ...
 Review all the files and now funally its working.
+--------2022-12-08-----------
+------11:00pm-----------
+When i tried to deploy on azure firstly it was giving difficulties because of visual studio setting-
+Then I started deploy on azure and it needed to create password and username for the database
+After completing all the requirements i hit publish but it was just giving the default page 
+-Then I deleted the app and created again 
+-However this time it was showing blank page without any error so as I early did , i repeat the same thing again
+-Now the problelm is of the css that it is not applying jusi on the home page otherwise it is ok
+- I just try one more time by replace the name of the folder in the index file 
+-so that might it will work.........Finger cross----
+Too happy that it is working as I expected to see in the browser.
+
+This is the my azure link where i publish my project named VarindersBookStore-
+https://varindersbookstore.azurewebsites.net/
+
 Finished.
+--------------------------------------------
 
 
